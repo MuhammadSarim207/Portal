@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&family=Calistoga&family=Honk&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: repeat;
+}
+.parent-card{
+    display: flex;
+    justify-content: center;
+margin-top: 50px;
+}
+.in-img{
+    width: 60%;
+    height: 500px;
+    margin-top: 3px;
+    border:0px;
+    -moz-box-shadow: 5px 5px 50px  rgb(212, 212, 212); 
+-webkit-box-shadow: 5px 5px 50px rgb(214, 214, 214) ; 
+box-shadow: 5px 5px 50px rgb(214, 214, 214) ;
+    border-radius: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:space-evenly;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-btn{
+    width: 150px;
+    height: 50px;
+    color: black;
+    border-radius: 10px;
+    font-family: Georgia;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-family: Honk;
+    opacity: 30%;
+}
+#bt-1{
+    color:rgb(8, 102, 255);
+}
+.img-btn:hover{
+    background-color:  black;
+    font-family: Honk;
+    font-size: large;
+    opacity: 100%;
+}
+.parent-card{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    gap: 30px;
+}
+h2{
+    margin-bottom: 84px;
+    font-size: xxx-large;
+    margin-left: 20px;
+    font-family: Honk;
+}
+.txt{
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-family: Honk;
+    font-size: x-large;
+}
+h1{
+    font-family: Bungee Spice;
+font-size: xxx-large;
+text-decoration: underline;
+}
+#last{
+    margin-bottom: 70px;
+}
+    </style>
+<div class="main">
+    <div class="parent-card">
+        <h1>My Assignments</h1>
+<div data-aos="zoom-in" style=" background-image: url(./screenshot/Screenshot\ \(46\).png);" class="in-img">
+    <h2 data-aos="fade-right">Gallery</h2>
+    <span data-aos="fade-right" class="txt">I made this gallery for the practice of iFrame,Video and Audio tags. It also contains Form and Resume page.
+    </span>
+<a href="https://github.com/MuhammadSarim207/Portal/tree/main/Gallery"><input  data-aos="fade-left" id="bt-1" style="border: 2px solid  rgb(8, 102, 255);" class="img-btn" type="button" value="View Code"></a>
+<a href="../Gallery/index.html"><input  data-aos="fade-left" id="bt-2" style="border: 2px solid  black;" class="img-btn" type="button" value="View Assignment"></a>
+</div>
+<div data-aos="zoom-in-up" style=" background-image: url(./screenshot/Screenshot\ \(47\).png);" class="in-img">
+ <h2 data-aos="fade-right">Kids ABC Book</h2>
+ <span data-aos="fade-right" class="txt">I made this book for the practice of Border-color,shadow and spacing in css.</span>
+<a href="https://github.com/MuhammadSarim207/Portal/tree/main/ABC%20SAR"><input  data-aos="fade-left" id="bt-1" style="border: 2px solid  rgb(8, 102, 255);" class="img-btn" type="button" value="View Code"></a>
+ <a href="../ABC SAR/index.html"><input  data-aos="fade-left" id="bt-2" style="border: 2px solid  black;" class="img-btn" type="button" value="View Assignment"></a>
+</div>
+ <div data-aos="zoom-in-left" style="background-image: url(./screenshot/Screenshot\ \(48\).png);" class="in-img">
+ <h2 data-aos="fade-right">FaceBook Login Page</h2>
+  <span data-aos="fade-right" class="txt">I made this page for the practice of Media Query and Display Flex in css.</span>
+<a href="https://github.com/MuhammadSarim207/Portal/tree/main/FB%20LOGIN%20PAGE"><input  data-aos="fade-left" id="bt-1" style="border: 2px solid  rgb(8, 102, 255);" class="img-btn" type="button" value="View Code"></a>
+<a href="../FB LOGIN PAGE/index.html"><input  data-aos="fade-left" id="bt-2" style="border: 2px solid  black;" class="img-btn" type="button" value="View Assignment"></a>
+ </div>
+ <div  data-aos="zoom-in-right" style="background-image: url(./screenshot/Screenshot\ \(49\).png);" class="in-img">
+ <h2 data-aos="fade-right">Apple Web Clone</h2>
+  <span data-aos="fade-right" class="txt">I made this Web Clone for the combine practice of html and css I have studied.</span>
+<a href="https://github.com/MuhammadSarim207/Portal/tree/main/Apple%20Web"><input  data-aos="fade-left" id="bt-1" style="border: 2px solid  rgb(8, 102, 255);" class="img-btn" type="button" value="View Code"></a>
+<a href="../Apple Web/index.html"> <input  data-aos="fade-left" id="bt-2" style="border: 2px solid  black;" class="img-btn" type="button" value="View Assignment"></a>
+   </div>
+ <div id="last" data-aos="zoom-out" style="background-image: url(./screenshot/Screenshot\ \(51\).png);" class="in-img">
+ <h2 data-aos="fade-right" >Color Palette</h2>
+   <span data-aos="fade-right" class="txt">I made this color palette page for the revision of Display Flex.</span>
+   <a href="https://github.com/MuhammadSarim207/Portal/tree/main/Opening%20Page"> <input  data-aos="fade-left" id="bt-1" style="border: 2px solid  rgb(8, 102, 255);" class="img-btn" type="button" value="View Code"></a>
+<a href="../Opening Page/index.html">  <input  data-aos="fade-left" id="bt-2" style="border: 2px solid  black;" class="img-btn" type="button" value="View Assignment"></a>
+ </div>
+</div>
+</div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

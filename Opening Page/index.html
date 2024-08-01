@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+   <title>Flat UI Colors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <style type="text/css">
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.top-div{
+    font-family: Bebas Neue    ;
+    display: flex;
+    flex-direction: row;
+   color: white;
+   justify-content: center ;
+   position: relative;
+   top: 20px;
+   gap: 400px;
+}
+li{
+    display: inline;
+}
+.left{
+font-size: 30pt;
+}
+.right{
+    font-size: 17pt;
+    position: relative;
+    top: 12px;
+    display: flex;
+    gap: 40px;
+}
+.div1{
+    background-color: white;
+    width: 300px;
+    height: 220px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.in1{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(43\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+.in2{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(45\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+.in3{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(46\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+.in4{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(47\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+.in5{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(48\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+.in6{
+    width: 95%;
+    height: 160px;
+    border-radius: 5px;
+    z-index: 2;
+    order: -1;
+    margin-top:7px ;
+    background-image: url(./screenshots/Screenshot\ \(49\).png);
+    background-repeat: no-repeat;
+    background-size: 100% 160px ;
+}
+p{
+    order: 3;
+    align-self:flex-start;
+}
+.first-3{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap:  40px;
+margin-bottom: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.sec-3{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+gap:  40px;
+}
+.main-div p{
+font-weight: 900;
+cursor: pointer;
+}
+.span-text{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+ .div1{
+    width: 220px;
+    font-size: small;
+ }
+  .span-text{
+    gap: 100px;
+  }  
+    .top-div{
+        gap: 280px;
+    }
+}
+@media screen and (max-width: 425px) {
+body{
+    background-size: 500px 2000px;
+}
+.first-3{
+    flex-direction: column;
+    align-items: center;
+}
+.sec-3{
+    flex-direction: column;
+    align-items: center;
+}
+.top-div{
+    gap: 50px;
+}
+.right{
+    gap: 5px;
+    font-size: 13pt;
+    top: 8px;
+}
+.left{
+    font-size: 19pt;
+}
+}
+@media screen and (max-width: 320px){
+    .left{
+        font-size: 17pt;
+    }
+    .right{
+        font-size: 11pt;
+    }
+    .top-div{
+        gap: 20px;
+    }
+}
+    </style>
+<div class="main">
+    <div class="top-div">
+        <span class="left"><li>FLAT UI COLORS</li></span>
+        <span class="right">
+            <li>DESIGNER INSPIRATION</li>
+            <span><li>SUBSCRIBE</li></span>
+        </span>
+    </div>
+    <div class="main-div">
+        <div class="first-3">
+           <a href="./Aussie/index.html">
+             <div class="div1">
+                <span class="span-text">
+                <p>Aussie Palette</p>
+                <p>AU</p>
+            </span>
+                <div class="in1">
+                </div>
+            </div></a>
+            <a href="./British/index.html">
+            <div class="div1">
+                <span class="span-text">
+                <p>British Palette</p>
+                <p>GB</p>
+            </span>
+                <div class="in2">
+                </div>
+            </div></a>
+            <a href="./Canadian/index.html">
+                 <div class="div1">
+               <span class="span-text">
+                <p>Canadian Palette</p>
+                <p>CA</p>
+            </span>
+                <div class="in3">
+                </div>
+            </div></a>
+        </div>
+        <div class="sec-3">
+            <a href="./Chinese/index.html">
+                <div class="div1">
+                <span class="span-text">
+                <p>Chinese Palette</p>
+                <p>CN</p>
+            </span>
+                <div class="in4">
+                </div>
+            </div></a>
+            <a href="./Dutch/index.html"> 
+                 <div class="div1">
+                <span class="span-text">
+                <p>Dutch Palette</p>
+                <p>NL</p>
+            </span>
+                <div class="in5">
+                </div>
+            </div></a>
+            <a href="./French/index.html">
+                 <div class="div1">
+                <span class="span-text">
+                <p>French Palette</p>
+                <p>FR</p>
+                </span>
+                <div class="in6">
+                </div>
+            </div></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
